@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addon-a11y": "^6.5.16",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -56,10 +58,15 @@
     "@storybook/manager-webpack5": "^6.5.16",
     "@storybook/node-logger": "^6.5.16",
     "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "0.0.13",
     "babel-plugin-named-exports-order": "0.0.2",
+    "css-loader": "^6.7.3",
     "prop-types": "^15.8.1",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.75.0"
   }
 }
