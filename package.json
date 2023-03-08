@@ -90,5 +90,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/atakanteko/storybook-tutorial"
-}
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  }
 }
