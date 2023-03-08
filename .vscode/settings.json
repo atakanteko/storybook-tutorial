@@ -1,0 +1,36 @@
+{
+
+    "liveSassCompile.settings.generateMap": true,
+
+    "liveSassCompile.settings.formats": [
+
+        {
+
+            "format": "expanded",
+
+            "extensionName": ".css",
+
+            "savePath": "/src/styles/css"
+
+        },
+
+        {
+
+            "format": "compressed",
+
+            "extensionName": ".min.css",
+
+            "savePath": "/src/styles/css"
+
+        }
+
+    ],
+
+    "liveSassCompile.settings.includeItems": [
+
+        "/src/styles/scss/storybook.scss"
+
+    ],
+    "editor.formatOnSave": true
+
+}

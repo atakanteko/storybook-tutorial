@@ -1,0 +1,15 @@
+:export {
+  paper: #070707;
+  primaryPurple: #8384fa;
+  primaryPurpleDark: #5e60ce;
+  primaryBlue: #4ea8de;
+  primaryBlueDark: #1e6f9f;
+  baseGray700: #0d0d0d;
+  baseGray600: #1a1a1a;
+  baseGray500: #262626;
+  baseGray400: #333333;
+  baseGray300: #808080;
+  baseGray200: #d9d9d9;
+  baseGray100: #f2f2f2;
+  baseDanger: #e25858;
+}/*# sourceMappingURL=storybook.css.map */

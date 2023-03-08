@@ -1,20 +1,20 @@
-import themePalette from "./palette";
-import colors from "../styles/scss/variables/__colorography.scss"
+import themePalette from './palette';
+import colors from '../styles/scss/variables/_colorography.scss';
 
-const useTheme = () => {
-    const color = colors;
+const uiTheme = () => {
+  const color = colors;
 
-    const themeOption = {
-        colors: color,
-    };
+  const themeOption = {
+    colors: color,
+  };
 
-    const themeOptions = {
-        palette: themePalette(themeOption),
-    };
+  const themeOptions = {
+    palette: themePalette(themeOption),
+  };
 
-    const themes = themeOptions;
+  const themes = themeOptions;
 
-    return themes;
-}
+  return themes;
+};
 
-export default useTheme;
+export default uiTheme;
