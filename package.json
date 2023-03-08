@@ -96,5 +96,9 @@
       "master",
       "next"
     ]
-  }
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js"
 }
